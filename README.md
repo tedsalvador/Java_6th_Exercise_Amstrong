@@ -36,27 +36,7 @@ Entregable:
 - Repositorio de git
 - Obligatorio realizar los pruebas unitarias
 
-# Diagrama de Clases
-
-                                                +------------------+<br>
-                                                |       Main       |<br>
-                                                +------------------+<br>
-                                                |                  |<br>
-                                                +------------------+<br>
-                                                        |<br>
-                                                        |<br>
-  +---------------------------+         +----------------------------------+<br>
-  |      AmstrongChecker      |         |             Number               |<br>
-  +---------------------------+         +----------------------------------+<br>
-  | - isAmstrong(int): boolean|         | - getNumberOfDigits(): int       |<br>
-  +---------------------------+         | - calculateArmstrongValue(): int |<br>
-             |                          +----------------------------------+<br>
-             |                                       | <br>
-             |                                       |<br>
-             |                                       |<br>
-        Comprueba si                           Pide número al<br>
-       es número de                               usuario y <br>
-        Amstrong.                              muestra resultado.<br>
+![Diagrama de Clases](UML/Diagrama_Clases.jpg)
 
 # Texto Enunciado:
 [Enunciado Link]https://docs.google.com/document/d/1-6DPcrDmny4UHEaCBlcs7V6kWdMtPRd1_Ke8aYIQCMA/edit

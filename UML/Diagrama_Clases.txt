@@ -1,0 +1,22 @@
+
+# Diagrama de Clases
+
+                                                +------------------+<br>
+                                                |       Main       |<br>
+                                                +------------------+<br>
+                                                |                  |<br>
+                                                +------------------+<br>
+                                                        |<br>
+                                                        |<br>
+  +---------------------------+         +----------------------------------+<br>
+  |      AmstrongChecker      |         |             Number               |<br>
+  +---------------------------+         +----------------------------------+<br>
+  | - isAmstrong(int): boolean|         | - getNumberOfDigits(): int       |<br>
+  +---------------------------+         | - calculateArmstrongValue(): int |<br>
+             |                          +----------------------------------+<br>
+             |                                       | <br>
+             |                                       |<br>
+             |                                       |<br>
+        Comprueba si                           Pide número al<br>
+       es número de                               usuario y <br>
+        Amstrong.                              muestra resultado.<br>
